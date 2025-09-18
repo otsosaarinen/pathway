@@ -38,6 +38,18 @@ namespace Pathway
 
 			NavigationService.Navigate(newPage);
 		}
+
+		private void DeleteButton_Click(object sender, RoutedEventArgs e)
+		{
+			if (TransfersListBox.SelectedIndex >= 0) {
+				Transfers.RemoveAt(TransfersListBox.SelectedIndex);
+			}
+		}
+
+		private void RunButton_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
 	}
 
 }
