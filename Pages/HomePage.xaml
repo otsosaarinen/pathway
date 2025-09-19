@@ -25,8 +25,8 @@
 					<ColumnDefinition Width="*" />
 				</Grid.ColumnDefinitions>
 				
-				<Button x:Name="RunButton" Width="100" Height="40" Grid.Column="0" Click="RunButton_Click">Run</Button>
-				<Button x:Name="DeleteButton" Width="100" Height="40" Grid.Column="1" Click="DeleteButton_Click">Delete</Button>
+				<Button x:Name="RunButton" Width="100" Height="40" Grid.Column="0" Click="RunButton_Click" Background="SkyBlue">Run</Button>
+				<Button x:Name="DeleteButton" Width="100" Height="40" Grid.Column="1" Click="DeleteButton_Click" Background="PaleVioletRed">Delete</Button>
 			</Grid>
 		</StackPanel>
 
